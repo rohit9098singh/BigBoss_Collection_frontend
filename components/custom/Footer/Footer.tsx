@@ -5,7 +5,7 @@ import { Facebook, Twitter, Instagram, Youtube, Mail, MapPin, Phone } from 'luci
 const Footer = () => {
   return (
     <footer className="bg-zinc-950 text-zinc-300 py-16 px-4 md:px-8 lg:px-12 border-t border-zinc-800">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+      <div className="px-8 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
         {/* Brand Information */}
         <div className="space-y-6">
           <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-orange-600">
@@ -132,7 +132,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div className="px-8 mx-auto mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-zinc-500 text-sm">
           &copy; {new Date().getFullYear()} BigBoss Collection. All rights reserved.
         </p>

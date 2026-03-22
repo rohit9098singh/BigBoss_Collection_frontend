@@ -16,7 +16,12 @@ export const Provider: React.FC<{ children: React.ReactNode }> = ({ children }) 
     return (
         <QueryClientProvider client={queryClient}>
             <ModalProvider>
-                <NextTopLoader showSpinner={false} color="#0CAF60" />
+                <NextTopLoader
+                    showSpinner={false}
+                    color="#FFD700"
+                    shadow="0 0 10px #FFD700, 0 0 6px #FFD700"
+                    height={3}
+                />
                 {children}
             </ModalProvider>
         </QueryClientProvider>

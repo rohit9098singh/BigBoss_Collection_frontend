@@ -54,7 +54,7 @@ export default function HeroCarousel() {
     };
 
     return (
-        <div className="relative w-full h-[50vh] md:h-[90vh] overflow-hidden group">
+        <div className="relative w-full h-[50vh] md:h-[90vh] overflow-hidden group mb-10 md:mb-12 ">
             {/* Carousel Images Wrapper */}
             <div
                 className="flex h-full transition-transform duration-700 ease-in-out"

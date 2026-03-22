@@ -75,7 +75,7 @@ const categories = [
 
 export default function FeaturedCategories() {
     return (
-        <section className="py-6 md:py-12 px-4 w-full max-w-7xl mx-auto">
+        <section className=" px-4 w-full max-w-7xl mx-auto mb-10 md:mb-12">
             <div className="text-center mb-12">
                 <h2 className="text-xl md:text-4xl font-extrabold uppercase tracking-tight text-primary">
                     Featured Categories
