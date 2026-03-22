@@ -13,7 +13,7 @@ const stores = [
 
 export default function PriceStores() {
     return (
-        <section className="py-2 px-4 w-full max-w-7xl mx-auto mb-6">
+        <section className="py-2 px-4 w-full max-w-7xl mx-auto mb-10 md:mb-12">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
                 {stores.map((store) => (
                     <Link
